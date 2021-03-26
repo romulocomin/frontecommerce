@@ -1,0 +1,109 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2f2f2;
+ 
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+}
+app-login {
+  position: absolute;
+  margin: -8% 0 0px 63%;
+}
+#row-content > div {
+  display: inline-grid;
+}
+#content{
+  padding-top:15px;
+}
+.list-thumbnail li{
+  width: 32px;
+  margin-bottom: 5px;
+  cursor:pointer;
+  list-style-type: none;
+}
+li img.img-fluid {
+  width: 32px;
+}
+.card{
+  height:100%;
+}
+.card-block .price{
+  padding-top: 30px;
+}
+.card-block .price h2{
+  font-size: 1.2rem;
+}
+.card-block .price h5{
+  font-size: .8rem;
+}
+.card-block .price .btn-add{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card-block .product-title{
+  color:#757575;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.card-block h5 i{
+  color:#ffcd00;
+  margin-left: 10px;
+}
+.card-block .badge{
+  font-weight: 300;
+  padding: 10px;
+  position: relative;
+}
+.card-block .badge:after {
+  right: -22%;
+  top:1px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-left-color:#0275d8;
+  border-width: 14px;
+  border-bottom-width: 16px;
+}
+
+.footer{
+  background-color: #3a3a3a;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+.footer img{
+  display: block;
+  margin: 0 auto;
+}
+.divider{
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+.bg-primary {
+  width: 98%;
+
+  
+}
+button.btn.btn-primary.btn-lg.btn-add {
+  width: 98%;
+  background: #0e76d0aa;
+}
+#nprogress .bar {
+  background: #daaf00;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #daaf00, 0 0 5px #daaf00;
+}
+#nprogress .spinner-icon {
+  border-top-color: #daaf00;
+  border-left-color: #daaf00;
+}
